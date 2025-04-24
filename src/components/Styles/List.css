@@ -1,0 +1,33 @@
+/* Card.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Card Component Styles */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  font-size: 1rem;
+  color: #333;
+}
+
+.list-group-item.active {
+  background-color: #007bff; /* Cambia el color de fondo */
+  color: white; /* Cambia el color del texto */
+}
